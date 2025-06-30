@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /wp-content/uploads/user_uploads/
+RewriteCond %{REQUEST_URI} thumbs/
+RewriteRule ^ - [L]
+RewriteRule ^ - [F]
